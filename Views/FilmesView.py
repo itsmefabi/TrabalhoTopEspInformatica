@@ -161,7 +161,7 @@ class FilmesView:
             u.printInstrucao('Qual operação deseja realizar?')
             u.printOpcao('1', 'Criar um filme novo')
             u.printOpcao('2', 'Buscar um filme')
-            u.printOpcao('3', 'Listar todos os produtores')
+            u.printOpcao('3', 'Listar todos os filmes')
             u.printOpcao('4', 'Atualizar um filme')
             u.printOpcao('5', 'Remover um filme')
             print('')

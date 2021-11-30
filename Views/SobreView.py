@@ -12,7 +12,7 @@ class SobreView:
         try:
             u.printTitulo('Sobre')  
             u.printInstrucao('Tema: Sistema de gerenciamento de filmes')  
-            u.printInstrucao('Desenvolvedoras:\n\n - Amanda Nogueira Meneghin RA: 2840481913001\n - Fabiola Gonçalves RA: 2840481721011')  
+            u.printInstrucao('Desenvolvedoras:\n\n (ﾉ^▽^)ﾉ Amanda Nogueira Meneghin RA: 2840481913001\n\n ٩(̾●̮̮̃̾•̃̾)۶\tFabiola Gonçalves RA: 2840481721011')  
             u.printSeparador(f'{"="*70}')
         except Exception as ex:     
             u.printSeparador(f'{"="*70}')

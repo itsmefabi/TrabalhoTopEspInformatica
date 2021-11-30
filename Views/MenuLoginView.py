@@ -17,7 +17,7 @@ class MenuLoginView:
         u = self.utilView
         while True:
             os.system('cls')
-            u.printTitulo('Tela Inicial - Gerenciamento de filmes')
+            u.printTitulo('(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Tela Inicial - Gerenciamento de filmes')
             u.printInstrucao('Escolha uma das operações abaixo:')
             u.printOpcao('1', 'Logar no sistema')
             u.printOpcao('2', 'Criar uma conta')

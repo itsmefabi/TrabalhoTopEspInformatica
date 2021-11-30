@@ -79,7 +79,7 @@ class FilmesRepositorio:
 	              SET id_produtor={filme.getIdProdutor() if filme.getIdProdutor() != None else 'NULL'},
                       titulo='{filme.getTitulo() if filme.getTitulo() != None else 'NULL'}', 
                       diretor='{filme.getDiretor() if filme.getDiretor() != None else 'NULL'}', 
-                      ano_lancamento='{filme.getano_lancamento() if filme.getano_lancamento() != None else 'NULL'}'
+                      ano_lancamento='{filme.getAnoLancamento() if filme.getAnoLancamento() != None else 'NULL'}'
 	              WHERE tb_filme.id_filme = {filme.getIdFilme() if filme.getIdFilme() != None else 'NULL'};"""
 
         cur = con.cursor()
